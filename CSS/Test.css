@@ -77,22 +77,27 @@ input[type = reset]{
 	background: rgb(100, 0, 0);
 	color: #fff;
 }
+/*Tabla*/
 .Cuadro3{
 	margin: 25px auto;
 	background: #fff;
 	width: 700px;
-	border: 1px solid #000;
 	border-radius: 5px;
 	box-shadow: 25px 5px #000;
 }
-th{
+th, td{
 	width: 700px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+th{
 	background: #48e;
 }
 td{
-	width: 700px;
 	background: #46e;
 }
+th:hover, td:hover{
+	background: #f0e;
 /*Pie de página*/
 footer{
 	background: #333;
