@@ -94,8 +94,8 @@ table{
 th{
     background-color: rgb(162, 177, 248);
 }
-th:hover, td:hover{
-    background: #46e;
+tbody > tr:hover{
+	background: #46e;
 }
 /*Pie de página*/
 footer{
