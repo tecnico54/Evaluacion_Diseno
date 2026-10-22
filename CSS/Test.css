@@ -80,24 +80,23 @@ input[type = reset]{
 /*Tabla*/
 .Cuadro3{
 	margin: 25px auto;
-	background: #fff;
-	width: 700px;
-	border-radius: 5px;
-	box-shadow: 25px 5px #000;
+    width: 700px;
+    box-shadow: 25px 5px #000;
+    border-radius: 5px;
+    border-collapse: collapse;
+    background: #fff;
 }
-th, td{
+table{
 	width: 700px;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-collapse: collapse;
+    background: #fff;
 }
 th{
-	background: #48e;
-}
-td{
-	background: #46e;
+    background-color: rgb(162, 177, 248);
 }
 th:hover, td:hover{
-	background: #f0e;
+    background: #46e;
+}
 /*Pie de página*/
 footer{
 	background: #333;
