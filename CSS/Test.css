@@ -109,3 +109,13 @@ footer > h3{
 	padding: 20px;
 	text-align: center;
 }
+@media screen and (max-width: 714px){
+	.Cuadro1, .Cuadro2, .Cuadro3, table{
+		width: 400px;
+	}
+	.Cuadro1 > img{
+		padding-right: 50px;
+		width: 400px;
+		height: 300px;
+	}
+}
